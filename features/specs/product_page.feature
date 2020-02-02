@@ -1,3 +1,4 @@
+@product_page
 Feature: Features on the Product Page
   As a site administrator
   I would like if the ecommerce had a good product page implemented

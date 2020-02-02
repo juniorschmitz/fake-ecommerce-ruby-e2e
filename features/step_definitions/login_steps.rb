@@ -3,10 +3,10 @@ Given("i access the login page") do
   @login_page.load
 end
 
-Given("login with email {string} and password {string}") do |string, string2|
-  pending # Write code here that turns the phrase above into concrete actions
+Given("login with email {string} and password {string}") do |email, password|
+  @login_page.login_with(email, password)
 end
 
 Then("i should be logged in successfully") do
-  pending # Write code here that turns the phrase above into concrete actions
+  expect(@login_page.header).to have_signed_in_name
 end

@@ -1,3 +1,4 @@
+@register
 Feature: Registration on the Fake Ecommerce
   I would like to be able to register on the application
   As a common user

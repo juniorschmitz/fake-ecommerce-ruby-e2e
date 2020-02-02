@@ -1,3 +1,4 @@
+@login
 Feature: Login on the Fake Ecommerce
   I would like to be able to login on the application
   As a common user
