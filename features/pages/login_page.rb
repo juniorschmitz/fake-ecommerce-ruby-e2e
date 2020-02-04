@@ -12,4 +12,9 @@ class LoginPage < SitePrism::Page
     login_form.input_password.set password
     login_form.btn_signin.click
   end
+
+  def go_to_registration(email)
+    create_account_option.input_email.set email
+    create_account_option.btn_go_to_create_account.click
+  end
 end
