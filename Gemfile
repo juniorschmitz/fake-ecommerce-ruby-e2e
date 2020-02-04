@@ -9,3 +9,5 @@ gem 'cucumber'
 gem 'ffi'
 gem 'rspec'
 gem 'faker'
+gem 'parallel_tests'
+
