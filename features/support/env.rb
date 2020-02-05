@@ -22,7 +22,9 @@ Capybara.register_driver :remote_chrome do |app|
   caps = Selenium::WebDriver::Remote::Capabilities.chrome(:chromeOptions => CHROME_OPTIONS)
   opts   = {
     :browser     => :remote,
-    :url         => 'http://192.168.99.100:4444/wd/hub',
+    # :url         => 'http://192.168.99.100:4444/wd/hub',
+    # :url         => 'http://ec2-18-216-221-197.us-east-2.compute.amazonaws.com:4444/wd/hub',
+    :url         => 'http://ec2-3-136-155-68.us-east-2.compute.amazonaws.com:4444/wd/hub',
     :desired_capabilities => caps
   }
   Capybara::Selenium::Driver.new(app, opts)
