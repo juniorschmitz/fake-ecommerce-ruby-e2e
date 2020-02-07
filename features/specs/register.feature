@@ -1,3 +1,4 @@
+@full_regression
 @register
 Feature: Registration on the Fake Ecommerce
   I would like to be able to register on the application
