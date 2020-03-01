@@ -10,4 +10,5 @@ gem 'ffi'
 gem 'rspec'
 gem 'faker'
 gem 'parallel_tests'
+gem "nokogiri", ">= 1.10.8"
 
