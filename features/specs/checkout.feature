@@ -1,3 +1,4 @@
+@full_regression
 @checkout
 Feature: Checkout flows on the Fake Ecommerce
   As a site administrator

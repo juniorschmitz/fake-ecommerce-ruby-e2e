@@ -1,3 +1,4 @@
+@full_regression
 @product_page
 Feature: Features on the Product Page
   As a site administrator
