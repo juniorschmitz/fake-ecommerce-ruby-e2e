@@ -45,3 +45,16 @@ sudo firewall-cmd --reload
 rpm -aq | grep -i jdk
 sudo yum remove <desired_java_version>
 sudo yum install java-1.8.0-openjdk-devel
+
+# SELE
+sudo apt-get update
+sudo apt-get remove docker docker-engine docker.io
+sudo apt install docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+
+curl -s https://aerokube.com/cm/bash | bash \
+    && ./cm selenoid start --vnc --tmpfs 128
+
+:4444/wd/hub
+:8080
